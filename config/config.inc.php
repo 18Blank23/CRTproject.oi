@@ -3,7 +3,7 @@
 $config['hostname'] = 'sql6.freesqldatabase.com';
 $config['username'] = 'sql6420409';
 $config['password'] = 'jQilRuYtWF';
-$config['database'] = 'chat';
+$config['database'] = 'sql6420409';
 
 
 $__config = $config;
