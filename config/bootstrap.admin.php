@@ -17,7 +17,7 @@ require "helper.inc.php";
 unset($__config);
 
 // SET DATE
-date_default_timezone_set('Asia/Jakarta');
+date_default_timezone_set('Asia/Manila');
 
 if(!true){
 	header('HTTP/1.0 404 Not Found', 404, true);
