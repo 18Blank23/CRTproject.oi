@@ -1,8 +1,8 @@
 <?php
 
-$config['hostname'] = 'localhost';
-$config['username'] = 'root';
-$config['password'] = '';
+$config['hostname'] = 'sql6.freesqldatabase.com';
+$config['username'] = 'sql6420409';
+$config['password'] = 'jQilRuYtWF';
 $config['database'] = 'chat';
 
 
