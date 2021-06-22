@@ -14,12 +14,14 @@
 
 <body>
 
-	
+	<div class="bg2">
+	</div>
 <div class ="bg">
 	<center><p3>CRT Online Counseling</p3></center>
 		
-	<a href="#"><center><p5>Get started!</p5></center></a>
+	<a href="#"><center><p5>Get started!Click here ---></p5></center></a>
 	
+	<a href="Login.php"><center><p6>Admin</p6></center></a>
 		</div>
 		
 	<div class="box">
@@ -64,23 +66,33 @@
 position: absolute;
  height: 100%;
  width: 100%;
- background-image: url("avatar.jpg");
- 		background-size:cover;
+ background-image: url("avatar.png");
+ background-repeat:no-repeat;
+ 		background-size:50%,50%;
 		 background-position: center,center;
-
+		
+		 
  top:0;
  position: fixed;
 }
+.bg2{
+position:absolute;
+height:100%;
+width:100%;
+background-image: linear-gradient(aqua,blue);
+
+
+}
 
 p5{
-
-
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  font-size: 30px;
  -webkit-text-stroke:1px;
  -webkit-text-fill-color:rgb(225, 225, 225);
  -webkit-animation:fill 0.5s infinite alternate;
-
+position:absolute;
+bottom:0;
+right:110px;
 
 }
 
@@ -94,9 +106,61 @@ font-size: 70px;
 -webkit-animation:fill 0.5s infinite alternate;
 
 }
+p6{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 35px;
+ -webkit-text-stroke:1px;
+ -webkit-text-fill-color:rgb(225, 225, 225);
+ -webkit-animation:fill 0.5s infinite alternate;
+position:absolute;
+top:0;
+right:0;
+
+}
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+	p3{
+
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 70px;
+-webkit-text-stroke:2px;
+-webkit-text-fill-color:rgb(225, 225, 225);
+-webkit-animation:fill 0.5s infinite alternate;
+position: absolute;
+text-align:center;
+top:40px;
+left:0;
+}
+p6{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 35px;
+ -webkit-text-stroke:1px;
+ -webkit-text-fill-color:rgb(225, 225, 225);
+ -webkit-animation:fill 0.5s infinite alternate;
+position:absolute;
+top:0;
+right:0;
+
+}
+p5{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 20px;
+ -webkit-text-stroke:1px;
+ -webkit-text-fill-color:rgb(225, 225, 225);
+ -webkit-animation:fill 0.5s infinite alternate;
+position:absolute;
+bottom:0;
+right:110px;
+
+}
 
 
 }
+
 	</style>
 </body>
 </html>
+<?php
+date_default_timezone_set("Asia/Bangkok");
+?>
