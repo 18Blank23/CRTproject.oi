@@ -21,7 +21,7 @@
 		
 	<a href="#"><center><p5>Get started!Click here ---></p5></center></a>
 	
-	<a href="Login.php"><center><p6>Admin</p6></center></a>
+	<a href="login.php"><center><p6>Admin</p6></center></a>
 		</div>
 		
 	<div class="box">
