@@ -1,9 +1,9 @@
 <?php
 
-$config['hostname'] = 'sql6.freesqldatabase.com';
-$config['username'] = 'sql6420409';
-$config['password'] = 'jQilRuYtWF';
-$config['database'] = 'sql6420409';
+$config['hostname'] = 'remotemysql.com';
+$config['username'] = 'C6SjdJHEFF';
+$config['password'] = 'bRHLoGh2BV';
+$config['database'] = 'C6SjdJHEFF';
 
 
 $__config = $config;
