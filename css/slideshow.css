@@ -1,0 +1,99 @@
+#outerTable td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  position: absolute;
+  left:0;
+  width: 100%;
+  top:100px;
+}
+
+#innerTable td {
+  vertical-align: middle;
+  text-align: center;
+  width: 70%; /* 95% of 674 is 640, 540 is 512 */
+  height: 500px;
+  border-style: groove;
+  border-width: 3px;
+  box-shadow: 5px 5px 5px #444444;
+  background-color: #000000;
+  left:15%;
+  position: absolute;
+  top :65px;
+}
+
+img.tripPix {
+  display: block;
+  margin: auto;
+  position: absolute;
+  left:0;
+  
+}
+@media screen and (min-width: 320px) and (max-width:480px) {
+	p3{
+
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 70px;
+-webkit-text-stroke:2px;
+-webkit-text-fill-color:rgb(225, 225, 225);
+-webkit-animation:fill 0.5s infinite alternate;
+position: absolute;
+text-align:center;
+top:40px;
+left:0;
+}
+p6{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 35px;
+ -webkit-text-stroke:1px;
+ -webkit-text-fill-color:rgb(225, 225, 225);
+ -webkit-animation:fill 0.5s infinite alternate;
+position:absolute;
+top:0;
+right:0;
+
+}
+p5{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 20px;
+ -webkit-text-stroke:1px;
+ -webkit-text-fill-color:rgb(225, 225, 225);
+ -webkit-animation:fill 0.5s infinite alternate;
+position:absolute;
+bottom:0;
+right:110px;
+
+}
+
+#outerTable td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  position: absolute;
+  left:0;
+  width: 100%;
+  top: 130px;
+}
+
+#innerTable td {
+  vertical-align: middle;
+  text-align: center;
+  width: 100%; /* 95% of 674 is 640, 540 is 512 */
+  height: 350px;
+  border-style: groove;
+  border-width: 3px;
+  box-shadow: 5px 5px 5px #444444;
+  background-color: #000000;
+  position: absolute;
+  top :85px;
+}
+
+img.tripPix {
+  display: block;
+  margin: auto;
+  position: absolute;
+  left:0;
+  
+}
+}
