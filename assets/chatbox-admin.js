@@ -87,6 +87,7 @@
 		interval: undefined,
 		parse: function(data){
 			var html = $(node.contact).data('id', data.id).attr('id', 'contact-'+data.id).find('.name').text(data.name).siblings('.preview').text(data.msg).closest('li');
+			
 			if(data.isBlocked == "1"){
 				$(html).addClass('blocked');
 			}
@@ -95,6 +96,7 @@
 		inject: function(html){
 			$(chatBox).find('#contacts ul').append(html);
 		},
+		
 		sendAjax: function(last, isFirst){
 			var self = this;
 			$.ajax({
@@ -314,11 +316,11 @@
 							$(chatBox).find('#contact-'+self.active).find('.preview').text(message);
 						}
 						else{
-							$(output).find('span').addClass('text-danger').text('Tidak terkirim');
+							$(output).find('span').addClass('text-danger').text('Not sent');
 						}
 					},
 					error: function(){
-						$(output).find('span').addClass('text-danger').text('Tidak terkirim');
+						$(output).find('span').addClass('text-danger').text('Not sent');
 					}
 				});
 			}
@@ -402,6 +404,7 @@
 		sent: '<li class="sent"><span class="moment"></span><p></p></li>',
 		contact: '<li class="contact"><div class="wrap"><div class="meta"><p class="name">Louis Litt</p><p class="preview">You just got LITT up, Mike.</p></div></div></li>',
 		content: '<div class="content"><div class="contact-profile"><button type="button" id="toggleNav" class="btn btn-light bg-transparent btn-sm float-left"><i class="fa fa-bars"></i></button><p></p><button type="button" class="btn btn-danger btn-sm" id="block" title="End the conversation"><i class="fa fa-ban"></i></button><button type="button" class="btn btn-danger btn-sm" id="delete" title="Delete Conversation"><i class="fa fa-trash"></i></button></div><div class="messages"><ul></ul></div><div class="message-input"><div class="wrap"><input type="text" placeholder="Write your message..." /><button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button></div></div></div>',
+
 		wrapper: '<div id="sidepanel"><div id="profile"><div class="wrap"><img id="profile-img" src="../assets/images/avatar.png" class="online" alt="" /><p>Admin</p><div id="status-options"><ul><li id="status-online" class="active"><span class="status-circle"></span><p>Online</p></li><li id="status-away"><span class="status-circle"></span><p>Away</p></li><li id="status-busy"><span class="status-circle"></span><p>Busy</p></li><li id="status-offline"><span class="status-circle"></span><p>Offline</p></li></ul></div></div></div><div id="contacts"><ul></ul></div></div>',
 		loadMoreContact: '<a href="#" class="btn-link" id="loadMoreContact">Load more contacts</a>',
 		loadHistoryChat: '<a href="#" class="btn-link" id="loadHistoryChat">Load History Chat</a>',
