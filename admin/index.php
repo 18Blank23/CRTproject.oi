@@ -48,8 +48,8 @@
 <style>
 .Logout{
 position:absolute;
-top :3%;
-right:7%;
+top :6%;
+left:17%;
 background-image: linear-gradient(aqua,blue);
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
