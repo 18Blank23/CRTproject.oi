@@ -44,7 +44,16 @@
 			});
 		});
 	</script>
-
+	<a href="logout.php"><button class="Logout">Logout</button></a>
+<style>
+.Logout{
+position:absolute;
+top :3%;
+right:7%;
+background-image: linear-gradient(aqua,blue);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+</style>
 
 
 </body>
