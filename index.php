@@ -137,7 +137,7 @@
 </li>
 
 <li class="nav-item active" style="margin-top:10px; margin-right:10px;">
-<a class="nav-link" href="mv.php">Vision and Mission</a>
+<a class="nav-link" href="mv.php">Terms of Use</a>
 </li>
 <li class="nav-item active" style="margin-top:10px; margin-right:10px;">
 <a class="nav-link" href="login.php">Admin</a>
