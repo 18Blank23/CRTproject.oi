@@ -50,7 +50,7 @@
 position:absolute;
 top :6%;
 left:17%;
-background-image: linear-gradient(aqua,blue);
+background-image: linear-gradient(gray,white);
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 </style>
