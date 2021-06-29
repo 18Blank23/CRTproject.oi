@@ -32,12 +32,20 @@
 
 	<div class="bg2">
     <center>
-<p9><h1>Vision</h1>
-To be recognized and respected as one of the premier members of the academic community that provides excellence in technological education.
+<p9><h1>Terms of Use</h1>
+-->Please be aware that you must input your right information in order to
+acknowledged your messages and concerns by the admin or counselor.
+<br><br>
+-->Users must aware too if the counselor is online or offline as the guidance
+office are open only for the office hours of 8:00AM to 5:00PM.
+<br><br>
 
-<h1>Mission</h1>
-The College for Research & Technology of Cabanatuan is a nurturing community devoted in providing accessible and affordable technological education by being a catalyst of innovation in the promotion of holistic development to empower individuals discovers their true worth and become productive members of the society.
-    </p9>
+-->Users can ask or tell their concerns and personal problem along the session
+because the admin will not tolerate using profanities.
+<br><br>
+-->Using profanity during counseling session can make the session forfeited as
+the counselor also promoted the principles of good manners and right conduct.
+</p9>
     </center>
 	</div>
 <div class ="bg">
@@ -103,7 +111,7 @@ The College for Research & Technology of Cabanatuan is a nurturing community dev
 </li>
 
 <li class="nav-item active" style="margin-top:10px; margin-right:10px;">
-<a class="nav-link" href="mv.php">Vision and Mission</a>
+<a class="nav-link" href="mv.php">Terms of Use</a>
 </li>
 <li class="nav-item active" style="margin-top:10px; margin-right:10px;">
 <a class="nav-link" href="login.php">Admin</a>
@@ -160,6 +168,8 @@ p9{
     top:100px;
     text-align:center;
     left:0;
+	height:100%;
+	width:100%;
 }
 p3{
 
